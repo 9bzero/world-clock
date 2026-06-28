@@ -1,19 +1,32 @@
-# world-clock
+# World Clock
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+Real-time world clock showing 10+ major cities across all time zones — updated every second.
 
-> Real-time world clock showing 10 major cities across time zones
+## Cities included
+
+New York · London · Paris · Dubai · Mumbai · Singapore · Tokyo · Sydney · Los Angeles · São Paulo · Cairo · Moscow
 
 ## Features
-- 🌍 10 cities with live time and date
-- ☀️/🌙 Day/night indicator per city
-- 🏠 Riyadh highlighted as local timezone
-- 🔍 City search filter
-- 🔄 Updates every second
+
+- Live clock for each city updated every second
+- 12h / 24h toggle
+- Current date per timezone
+- UTC offset label
+- DST indicator
+- Search and add any timezone
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Intl API](https://img.shields.io/badge/Intl_API-orange?style=flat)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
